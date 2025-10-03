@@ -1,0 +1,19 @@
+$container-max-widths: (
+  sm: 500px,
+  md: 800px,
+  lg: 900px,
+  xl: 1300px,
+  xxl: 1800px
+);
+$nav-link-color: #000;
+$nav-link-hover-color: #000;
+$nav-link-active-color: #000;
+$input-border-radius: 0;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
